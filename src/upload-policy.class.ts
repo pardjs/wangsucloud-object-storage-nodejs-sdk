@@ -38,6 +38,7 @@ export class UploadPolicy {
     } else {
       this.scope = `${bucket}:${fileKey}`;
     }
+    console.log(this.scope);
     this.deadline = tokenExpiredAt;
     if (saveKey) this.saveKey = saveKey;
     this.fsizeLimit = fsizeLimit;

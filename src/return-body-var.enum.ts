@@ -1,4 +1,4 @@
-export enum ReturnTypeVar {
+export enum ReturnBodyVar {
   ProcessId = "persistentId",
   Bucket = "bucket",
   FileKey = "key",

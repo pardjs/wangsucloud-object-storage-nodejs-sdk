@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pardjs/wangsucloud-object-storage-nodejs-sdk#readme",
   "devDependencies": {
+    "@types/dotenv": "^6.1.0",
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.2",
     "dotenv": "^6.1.0",
